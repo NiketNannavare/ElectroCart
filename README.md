@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Electro Cart
+Electro Cart is a modern e-commerce website focused on selling electronic products. It features a User section and an Admin section, offering a complete shopping and management experience.
 
-## Getting Started
+🚀 Features
+User Section
+Home Page: Landing page showcasing products and highlights.
 
-First, run the development server:
+Shop Page: Browse and explore various electronics.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Cart Page: View and manage products added to the cart.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+About Page: Learn more about Electro Cart and its mission.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Contact Page: Connect with us through a contact form.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Admin Section
+Add Products: Admins can add new products to the store.
 
-## Learn More
+List Products: View and manage all the products listed on the website.
 
-To learn more about Next.js, take a look at the following resources:
+Orders: View and manage user orders.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 A Go to Admin button is provided on the user frontend.
+When clicked, the system checks if the logged-in user has admin authentication. Only authorized admins can access the Admin Dashboard.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔒 Authentication & Authorization
+Clerk is used for user authentication and management.
 
-## Deploy on Vercel
+Access control ensures that only authorized users can enter the admin section.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🛠️ Technologies Used
+Frontend:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ Next.js 
+ Tailwind CSS 
+
+Backend:
+
+ Node.js 
+
+Database:
+
+MongoDB 
+
+Authentication:
+
+Clerk (for user sign-up/login)
+
+Serverless Events:
+
+Inngest 
+
