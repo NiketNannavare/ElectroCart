@@ -1,52 +1,52 @@
-Electro Cart
-Electro Cart is a modern e-commerce website focused on selling electronic products. It features a User section and an Admin section, offering a complete shopping and management experience.
+# **Electro Cart**
 
-🚀 Features
-User Section
-Home Page: Landing page showcasing products and highlights.
+Electro Cart is a modern **e-commerce website** focused on selling electronic products. It features a **User Section** and an **Admin Section**, offering a complete shopping and management experience.
 
-Shop Page: Browse and explore various electronics.
+---
 
-Cart Page: View and manage products added to the cart.
+## 🚀 **Features**
 
-About Page: Learn more about Electro Cart and its mission.
+### **User Section**
+- **Home Page**: A landing page showcasing products and highlights.
+- **Shop Page**: Browse and explore various electronics.
+- **Cart Page**: View and manage products added to the cart.
+- **About Page**: Learn more about Electro Cart and its mission.
+- **Contact Page**: Connect with us through a contact form.
 
-Contact Page: Connect with us through a contact form.
+### **Admin Section**
+- **Add Products**: Admins can add new products to the store.
+- **List Products**: View and manage all the products listed on the website.
+- **Orders**: View and manage user orders.
 
-Admin Section
-Add Products: Admins can add new products to the store.
+👉 **A "Go to Admin" button** is provided on the user frontend.  
+When clicked, the system checks if the logged-in user has admin authentication.  
+Only authorized admins can access the **Admin Dashboard**.
 
-List Products: View and manage all the products listed on the website.
+---
 
-Orders: View and manage user orders.
+## 🔒 **Authentication & Authorization**
+- **Clerk** is used for user authentication and management.
+- **Access control** ensures that only authorized users can enter the admin section.
 
-👉 A Go to Admin button is provided on the user frontend.
-When clicked, the system checks if the logged-in user has admin authentication. Only authorized admins can access the Admin Dashboard.
+---
 
-🔒 Authentication & Authorization
-Clerk is used for user authentication and management.
+## 🛠️ **Technologies Used**
 
-Access control ensures that only authorized users can enter the admin section.
+### **Frontend**
+- **Next.js**
+- **Tailwind CSS**
 
-🛠️ Technologies Used
-Frontend:
+### **Backend**
+- **Node.js**
 
- Next.js 
- Tailwind CSS 
+### **Database**
+- **MongoDB**
 
-Backend:
+### **Authentication**
+- **Clerk** (for user sign-up/login)
 
- Node.js 
+### **Serverless Events**
+- **Inngest**
 
-Database:
-
-MongoDB 
-
-Authentication:
-
-Clerk (for user sign-up/login)
-
-Serverless Events:
-
-Inngest 
+---
 
