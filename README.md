@@ -20,7 +20,8 @@ Electro Cart is a modern **e-commerce website** focused on selling electronic pr
 
 👉 **A "Go to Admin" button** is provided on the user frontend.  
 When clicked, the system checks if the logged-in user has admin authentication.  
-Only authorized admins can access the **Admin Dashboard**.
+Only authorized admins can access the **Admin Dashboard**. 
+for now all user can access the admin section.
 
 ---
 
